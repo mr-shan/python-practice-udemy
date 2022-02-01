@@ -8,7 +8,7 @@ print("")
 if age < 18:
   print("Hey {0}, you're not allowed to drink! :(\nPlease come back after {1} years! :)".format(name, 18-age))
 
-elif age < 22:
+elif age < 22 and age >=18:
   print("Welcome {0}, to the party! :) \nBut remember, NO HARD DRINKS! \nBeer and wine only!!! ;)".format(name))
 
 else:
