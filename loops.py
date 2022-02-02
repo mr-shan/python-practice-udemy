@@ -34,6 +34,6 @@ while fav_food not in italian_foods:
   if fav_food == "quit":
     print("Okay.. you quit! Game Over")
     break
-fav_food != "quit":
+if fav_food != "quit":
   print("Yay! You guessed it right!")
   
