@@ -31,6 +31,9 @@ fav_food = ""
 while fav_food not in italian_foods:
   print("Guess my favourite Italian food")
   fav_food = input()
-  
-print("Yay! You guessed it right!")
+  if fav_food == "quit":
+    print("Okay.. you quit! Game Over")
+    break
+fav_food != "quit":
+  print("Yay! You guessed it right!")
   
